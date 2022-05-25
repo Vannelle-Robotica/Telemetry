@@ -1,7 +1,38 @@
 @page
+@using Telemetry.Models
 @using Telemetry.pages
 
-<h1>Robot telemetry data</h1>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Sensor</h3>
+      <p>The sensor is ...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Battery State</h3>
+      <p>The battery is ...</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Temperature</h3>        
+      <p>The temperature is ...</p>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Mode</h3>
+        <p>The mode is ...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Weight</h3>
+        <p>The weight is ...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Decibel</h3>        
+        <p>The amount of decible is ...</p>
+      </div>
+    </div>
+</div>
 
 @Upload.Last
 
