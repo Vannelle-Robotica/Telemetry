@@ -2,36 +2,64 @@
 @using Telemetry.Models
 @using Telemetry.pages
 
-
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Sensor</h3>
-      <p>The sensor is ...</p>
+<div class="container mt-4">
+  <div class="row form-group">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Temperature</h5>
+          <p class="card-text">The temperature is ...</p>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <h3>Battery State</h3>
-      <p>The battery is ...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Temperature</h3>        
-      <p>The temperature is ...</p>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Battery state</h5>
+          <p class="card-text">The battery state is ..%</p>
+        </div>
+      </div>
     </div>
   </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <h3>Mode</h3>
-        <p>The mode is ...</p>
+  
+  <div class="row form-group">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Sensors</h5>
+            <p class="card-text">The sensors ...</p>
+          </div>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <h3>Weight</h3>
-        <p>The weight is ...</p>
-      </div>
-      <div class="col-sm-4">
-        <h3>Decibel</h3>        
-        <p>The amount of decible is ...</p>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Weighting</h5>
+            <p class="card-text">The weighting is ...</p>
+          </div>
+        </div>
       </div>
     </div>
+  
+  <div class="row form-group">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Mode</h5>
+          <p class="card-text">The robot is in ... mode.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Speed</h5>
+          <p class="card-text">The speed is ...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </div>
 
 @Upload.Last
